@@ -17,7 +17,7 @@ searchBtn.addEventListener("click",function(){
 })
 
 function citySearch(){
-fetch('http://api.openweathermap.org/data/2.5/weather?q='+city.value+'&appid=cb2e560ae699e1d52367949f70dcc2ad&units=metric')
+fetch('http://api.openweathermap.org/data/2.5/weather?q='+city.value+'&appid={YOUR_API}2ad&units=metric')
 .then(response => response.json())
 .then(data => {
     const cityName = data['name']
