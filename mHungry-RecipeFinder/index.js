@@ -1,6 +1,7 @@
 const searchInput = document.getElementById("search-input")
 const searchBtn = document.getElementById("search-btn")
 const mealList = document.getElementById("meal")
+const searchResultTitle = document.getElementById("resultTitle")
 const mealDetailsContent = document.querySelector('.meal-details-content')
 
 
@@ -8,7 +9,8 @@ searchBtn.addEventListener("click", getMealList)
 mealList.addEventListener("click", getMealRecipe)
 
 function getMealList()
-{
+{   
+    searchResultTitle.textContent = "Search Result:"
     const searchInputTxt = document.getElementById("search-input").value.trim()
     fetch(`https://www.themealdb.com/api/json/v1/1/filter.php?i=${searchInputTxt}`)
     .then(response => response.json())
