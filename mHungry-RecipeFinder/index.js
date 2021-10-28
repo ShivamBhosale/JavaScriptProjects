@@ -90,6 +90,4 @@ function mealRecipeModal(meal){
 }
 
 
-searchBtn.addEventListener("click", function(){
-    searchInput.value = ""
-})
+
