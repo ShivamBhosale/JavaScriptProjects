@@ -11,6 +11,9 @@ body{
     background-color: white;
     font-family:'Poppins',sans-serif;
 }
+hr{
+    color: #99154E;
+}
 .heading{
     font-size: 3rem;
     font-weight: normal;
