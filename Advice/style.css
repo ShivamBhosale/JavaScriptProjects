@@ -1,0 +1,42 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: monospace;
+}
+
+body{
+    background-color: #FFE5B4;
+}
+
+.block{
+    text-align: center;
+}
+
+.head{
+    font-size: 3rem;
+    
+}
+
+.advice-block{
+    text-align: center;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10vh 30vw;
+    font-size: 2rem;
+}
+
+.get-ad{
+    background-color: #6fbbd3;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 2rem;
+    color: white;
+    font-weight: bold;
+    margin-top: 5vh;
+}
+
+.advice{
+    font-size: 1.5rem;
+    margin-top: 2vh ;
+}
