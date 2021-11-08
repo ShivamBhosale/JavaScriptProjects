@@ -64,3 +64,22 @@ a{
     text-decoration: none;
     color: #2A0944;
 }
+
+#clear-btn{
+    background-color: #2A0944;
+    color: white;
+    border: none;
+    padding: 0.5rem;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+
+#clear-btn:hover {background-color: #2A0944}
+
+#clear-btn:active {
+  background-color: #2A0944;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
