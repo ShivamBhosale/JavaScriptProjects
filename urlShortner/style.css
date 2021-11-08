@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&family=Poppins:ital,wght@0,300;0,500;1,600;1,800&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    background-color: #FEC260;
+}
+.titlehead h1{
+    font-family: 'Mochiy Pop P One', sans-serif;
+    text-align: center;
+    font-size: 2.5rem;
+    color: #2A0944;
+}
+
+.para{
+    text-align: center;
+}
+.para p{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-size: 1.5rem;
+    color: #2A0944;
+    margin-top: 5vh;
+}
+
+#url-input{
+    background-color: white;
+    border: 1px solid #2A0944;
+    padding: 0.5rem;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    border-radius: 5px;
+    color: #2A0944;
+}
+
+#content{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-left: 18vw;
+    margin-right: 18vw;
+}
+
+#shorten-btn{
+    background-color: #2A0944;
+    color: white;
+    border: none;
+    padding: 0.5rem;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+
+#shorten-btn:hover {background-color: #2A0944}
+
+#shorten-btn:active {
+  background-color: #2A0944;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+a{
+    text-decoration: none;
+    color: #2A0944;
+}
